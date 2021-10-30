@@ -1,7 +1,9 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# App name: TA
+### Group members: 
+Diana Del Cid, Leonel Santos, Riddhima Rai, Yuzhu Fu
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,70 +13,67 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+A tutoring app that connects students and tutors accoring to subjects or skills
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Education
+- **Mobile:** Interactive, connecting students with tutors
+- **Story:** Allows students to seek help from tutors and connect with them, or post questions 
+- **Market:** Any student wants to get help can register for an account; any tutor who is willing to help and wishes to make money can join to answer questions
+- **Habit:** Students and tutors can give the app their preferences or goals, then the app will match them based on their wishes 
+- **Scope:** Main focus is to match students with tutors. It can be expanded to support students post questions, tutors answer questions below a post and allow direct messages.
 
 ## Product Spec
-
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User creates account based on whether he/she is a student or tutor.
+* User specificies subjects that needed help on if he/she is a student or skills if he/she is a tutor. 
+* Matches have a chat window to get to know each other, with the ability to unmatch.
+* User can see who they have been matched with on the main feed.
+* User can post questions and get answers from a tutor.
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Profile pages for each user
+* Settings (Accesibility, Notification, General, etc.)
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
+* Login 
+* Register - User signs up or logs into their account
+   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person. 
    * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Messaging Screen - Chat for users to communicate (direct 1-on-1)
+   * Upon clicking on others' profile images, users can directly message others
+* Profile Screen 
+   * Allows user to upload a photo and fill in information that is interesting to them and others
+* Song Selection Screen.
+   * Allows user to be able to choose their desired song, artist, genre of preference and begin listening and interacting with others.
+* Settings Screen
+   * Lets people change language, and app notification settings.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Music selection
+* Profile
+* Settings
+
+Optional:
+* Music/Encounter Queue
+* Discover (Top Choices)
 
 **Flow Navigation** (Screen to Screen)
-
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Forced Log-in -> Account creation if no log in is available
+* Music Selection (Or Queue if Optional) -> Jumps to Chat
+* Profile -> Text field to be modified. 
+* Settings -> Toggle settings
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
 
 ### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
