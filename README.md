@@ -49,7 +49,7 @@ A tutoring app that connects students and teaching assistants according to subje
 * Login 
 * Register - User signs up or logs into their account
    * Upon Download/Opening of the application, the user is prompted to log in lr sign up to gain access to skill or subject preferences to be properly matched (student -> TA). 
-* Quick Screen - Chat for users to communicate upon matching (direct 1-on-1)
+* Quick Chat Screen - Chat for users to communicate upon matching (direct 1-on-1)
    * Upon registering users will be matched to either a student or TA depending on the account created, users can choose to send a quick chat to get to know one another or unmatch. Quick chats end up in direct messages.
 * Feedview Screen 
    * Allows user to upload a photo of a question or problem (student) for their matches to see, and allows users (TA's) to commemt under posts with a solution. 
