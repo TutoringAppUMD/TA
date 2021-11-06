@@ -48,11 +48,18 @@ A tutoring app that connects students and teaching assistants according to subje
 
 * Login 
 * Register - User signs up or logs into their account
-   * Upon Download/Opening of the application, the user is prompted to log in lr sign up to gain access to skill or subject preferences to be properly matched (student -> TA). 
+   * Upon Download/Opening of the application, the user is prompted to log in or sign up to gain access to skill or subject preferences to be properly matched (student -> TA). 
+* Subject/ Skill Selection Screen - User may select subjects or skills
+   * Upon selection matches will be found and user eill be taken ro the match or un,atch selection screen. 
+* Match Screen - User may view matches specifications (subjects/skills, and decide whether to unmatch (next/skip) or quick chat
 * Quick Chat Screen - Chat for users to communicate upon matching (direct 1-on-1)
    * Upon registering users will be matched to either a student or TA depending on the account created, users can choose to send a quick chat to get to know one another or unmatch. Quick chats end up in direct messages.
 * Feedview Screen 
-   * Allows user to upload a photo of a question or problem (student) for their matches to see, and allows users (TA's) to commemt under posts with a solution. 
+   * Users can view photos of problems, caption (Question), and comments (usually by TA's) under posts (solution). Logout button and camera button
+* Gallery Screen
+   * Allows user to select a photo of a question or problem (student) for their matches to see, and write a caption (specific question) 
+* Comment Screen 
+   * After a user clicks comment on a post they will be taken to a seperate screen where they may type im their solution.
 *  Direct Message Screen
    * Allows user to directly message current matches this differs from the messaging screen as it appears as an option after matches have been found.
 
@@ -60,7 +67,7 @@ A tutoring app that connects students and teaching assistants according to subje
 
 **Tab Navigation** (Tab to Screen)
 
-* Feed (Post questions/solutions)
+* Feed (Home) (Post questions/solutions)
 * Direct Messages
 * Subject/Skill selection
 
@@ -71,9 +78,10 @@ Optional:
 **Flow Navigation** (Screen to Screen)
 * Log-in -> Account creation if no log in is available or automatically remains logged in across restarts
 * Student or TA verification -> Subject or Skill Selection
-* Match or Unmatch/Chat Window -> Text field to chat and unmatch button. 
+* Match or Unmatch/Chat Window -> Text field to chat.
 * Main feed -> Can upload photos of questions/solutions, may post comments under posts 
 * Direct Message -> Can directly message with a specific match 
 
 ## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+![image](https://user-images.githubusercontent.com/89175881/140596811-1d77b505-e944-4982-bc99-3ea8f23b3bd7.jpeg)
+
