@@ -33,15 +33,15 @@ A tutoring app that connects students and teaching assistants according to subje
 * User can remain logged in across restarts
 * User can log out
 * User specificies subjects needed if he/she is a student or skills if he/she is a TA. 
-* Matches have a chat window to get to know each other, with the ability to unmatch.
-* User can see who they have been matched with on the main feed.
-* User can post questions 
-* User can comment under posts
-* User can send direct messages
+* User can select to skip or see next match, or user can send a quick chat.
+* User can view main feed (matches only): photo posts (problems) and captions (specific questions) this normally by a student user and comments (solutions) by a TA.
+* User can post questions/photo problems
+* User can comment under posts with solutions
+* User can send direct message a match
 
 **Optional Nice-to-have Stories**
 
-* Profile pages for each user
+* Profile pages/pictures for each user
 * Settings (Accesibility, Notification, General, etc.)
 
 ### 2. Screen Archetypes
@@ -55,19 +55,19 @@ A tutoring app that connects students and teaching assistants according to subje
 * Quick Chat Screen - Chat for users to communicate upon matching (direct 1-on-1)
    * Upon registering users will be matched to either a student or TA depending on the account created, users can choose to send a quick chat to get to know one another or unmatch. Quick chats end up in direct messages.
 * Feedview Screen 
-   * Users can view photos of problems, caption (Question), and comments (usually by TA's) under posts (solution). Logout button and camera button
+   * Users can view photos of problems, caption (specific questions), and comments (solutions) under posts. Logout button and camera button.
 * Gallery Screen
    * Allows user to select a photo of a question or problem (student) for their matches to see, and write a caption (specific question) 
 * Comment Screen 
-   * After a user clicks comment on a post they will be taken to a seperate screen where they may type im their solution.
+   * After a user clicks comment on a post they will be taken to a seperate screen where they may type in their solution.
 *  Direct Message Screen
-   * Allows user to directly message current matches this differs from the messaging screen as it appears as an option after matches have been found.
+   * Allows user to directly message current matches this differs from the quick chat screen because it has to be used after a quick chat has been sent to a match to continue messaging.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Feed (Home) (Post questions/solutions)
+* Feed (Home) 
 * Direct Messages
 * Subject/Skill selection
 
@@ -78,10 +78,11 @@ Optional:
 **Flow Navigation** (Screen to Screen)
 * Log-in -> Account creation if no log in is available or automatically remains logged in across restarts
 * Student or TA verification -> Subject or Skill Selection
-* Match or Unmatch/Chat Window -> Text field to chat.
-* Main feed -> Can upload photos of questions/solutions, may post comments under posts 
+* Match or Unmatch -> Text field to send quick chat.
+* Main feed -> Can upload photos of questions with caption, may post comments under posts, can logout
 * Direct Message -> Can directly message with a specific match 
 
 ## Wireframes
-![image](https://user-images.githubusercontent.com/89175881/140596811-1d77b505-e944-4982-bc99-3ea8f23b3bd7.jpeg)
+![image](https://user-images.githubusercontent.com/89175881/140597724-8e0864fd-b8cf-431e-b682-078faecec2c2.jpeg)
+
 
