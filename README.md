@@ -2,7 +2,7 @@ Original App Design Project - README Template
 ===
 
 # App name: TA
-### Group members: 
+### Creators: 
 Diana Del Cid, Leonel Santos, Riddhima Rai, Yuzhu Fu
 
 ## Table of Contents
@@ -13,26 +13,31 @@ Diana Del Cid, Leonel Santos, Riddhima Rai, Yuzhu Fu
 
 ## Overview
 ### Description
-A tutoring app that connects students and tutors accoring to subjects or skills
+A tutoring app that connects students and teaching assistants according to subjects or skills.
 
 ### App Evaluation
 - **Category:** Education
-- **Mobile:** Interactive, connecting students with tutors
-- **Story:** Allows students to seek help from tutors and connect with them, or post questions 
-- **Market:** Any student wants to get help can register for an account; any tutor who is willing to help and wishes to make money can join to answer questions
-- **Habit:** Students and tutors can give the app their preferences or goals, then the app will match them based on their wishes 
-- **Scope:** Main focus is to match students with tutors. It can be expanded to support students post questions, tutors answer questions below a post and allow direct messages.
+- **Mobile:** Interactive, connecting students with TA's
+- **Story:** Allows students to seek help from teaching assistant/connect with them, and post questions or problems 
+- **Market:** Any student who seeks help can register for an account; any TA's who are willing to answer questions and provide meaningful and correct solutions may also create an account
+- **Habit:** Students and TA's may give the app their preferences (specific subject or skills) or goals (what they want learn), then the app will match them based on those specifications.
+- **Scope:** Main focus is to match students with the appropriate TA. App can be expanded to support students in posting questions, TA's may answer the question in a comment under the post but direct messages will also be available.
 
 ## Product Spec
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
 
-* User creates account based on whether he/she is a student or tutor.
-* User specificies subjects that needed help on if he/she is a student or skills if he/she is a tutor. 
+* User can create an account based on whether he/she is a student or TA.
+* User can log in
+* User can remain logged in across restarts
+* User can log out
+* User specificies subjects needed if he/she is a student or skills if he/she is a TA. 
 * Matches have a chat window to get to know each other, with the ability to unmatch.
 * User can see who they have been matched with on the main feed.
-* User can post questions and get answers from a tutor.
+* User can post questions 
+* User can comment under posts
+* User can send direct messages
 
 **Optional Nice-to-have Stories**
 
@@ -43,37 +48,32 @@ A tutoring app that connects students and tutors accoring to subjects or skills
 
 * Login 
 * Register - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person. 
-   * ...
+   * Upon Download/Opening of the application, the user is prompted to log in lr sign up to gain access to skill or subject preferences to be properly matched (student -> TA). 
 * Messaging Screen - Chat for users to communicate (direct 1-on-1)
-   * Upon clicking on others' profile images, users can directly message others
-* Profile Screen 
-   * Allows user to upload a photo and fill in information that is interesting to them and others
-* Song Selection Screen.
-   * Allows user to be able to choose their desired song, artist, genre of preference and begin listening and interacting with others.
-* Settings Screen
-   * Lets people change language, and app notification settings.
+   * Upon registering users will be matched to either a student or TA depending on the account created, users can choose to chat to get to kmow one another or unmatch.
+* Feedview Screen 
+   * Allows user to upload a photo of a question or problem (student) for their matches to see, and allows users (TA's) to commemt under posts with a solution. 
+*  Direct Message Screen
+   * Allows user to directly message current matches this differs from the messaging screen as it appears as an option after matches have been found.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Music selection
-* Profile
-* Settings
+* Feed (Post questions/solutions)
+* Direct Messages
+* Subject/Skill selection
 
 Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
+* Settings
+* Profile Page
 
 **Flow Navigation** (Screen to Screen)
-* Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
-* Settings -> Toggle settings
+* Log-in -> Account creation if no log in is available or automatically remains logged in across restarts
+* Student or TA verification -> Subject or Skill Selection
+* Match or Unmatch/Chat Window -> Text field to chat and unmatch button. 
+* Main feed -> Can upload photos of questions/solutions, may post comments under posts 
+* Direct Message -> Can directly message with a specific match 
 
 ## Wireframes
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
-
-### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
