@@ -96,8 +96,8 @@ Optional:
    | image         | File     | image that user posts |
    | caption       | String   | image caption by author |
    | comments      | String   | comments that has been posted to an image |
-   | chatbox       | Array[Messages]    | A placeholder of messages in chronological order |
-   | message       | class    | Wrap the sender, receiver and the text messages(string format) in this class |
+   | chatbox       | Array[Messages]    | a placeholder of messages in chronological order |
+   | message       | class    | wrap the sender/receiver and the text messages(string format) in this class |
    | createdAt     | DateTime | date when post is created (default field) |
    
 ### Networking
@@ -122,11 +122,12 @@ Optional:
       - (Create/POST) Create a new comment on a post
    - Create Post Screen
       - (Create/POST) Create a new post object
-      - (Create/POST) Creat a new caption under an image
+      - (Create/POST) Create a new caption under an image
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update subjects/ skills as modified 
    - Message Screen
-      - (Creat/POST/Read/GET) Load eisting messages, create new messages whenever the user wants to connect someone
+      - (Read/GET) Load existing messages
+      - (Creat/POST) Create new messages whenever the user wants to connect to someone
 
 
