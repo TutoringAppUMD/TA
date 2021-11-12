@@ -95,12 +95,15 @@ Optional:
    | author        | Pointer to User| image author |
    | image         | File     | image that user posts |
    | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
+   | comments      | String   | comments that has been posted to an image |
+   | chatbox       | Array[Messages]    | A placeholder of messages in chronological order |
+   | message       | class    | Wrap the sender, receiver and the text messages(string format) in this class |
    | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
+   
 ### Networking
 #### List of network requests by screen
+   - Register/Login Screen
+      - (Create/POST) Create a new user and provide it with some predifined options for the app to match later
    - Home Feed Screen
       - (Read/GET) Query all posts where user is author
          ```swift
@@ -116,37 +119,14 @@ Optional:
             }
          }
          ```
-      - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
       - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
    - Create Post Screen
       - (Create/POST) Create a new post object
+      - (Create/POST) Creat a new caption under an image
    - Profile Screen
       - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user profile image
-#### [OPTIONAL:] Existing API Endpoints
-##### An API Of Ice And Fire
-- Base URL - [http://www.anapioficeandfire.com/api](http://www.anapioficeandfire.com/api)
-
-   HTTP Verb | Endpoint | Description
-   ----------|----------|------------
-    `GET`    | /characters | get all characters
-    `GET`    | /characters/?name=name | return specific character by name
-    `GET`    | /houses   | get all houses
-    `GET`    | /houses/?name=name | return specific house by name
-
-##### Game of Thrones API
-- Base URL - [https://api.got.show/api](https://api.got.show/api)
-
-   HTTP Verb | Endpoint | Description
-   ----------|----------|------------
-    `GET`    | /cities | gets all cities
-    `GET`    | /cities/byId/:id | gets specific city by :id
-    `GET`    | /continents | gets all continents
-    `GET`    | /continents/byId/:id | gets specific continent by :id
-    `GET`    | /regions | gets all regions
-    `GET`    | /regions/byId/:id | gets specific region by :id
-    `GET`    | /characters/paths/:name | gets a character's path with a given name
+      - (Update/PUT) Update subjects/ skills as modified 
+   - Message Screen
+      - (Creat/POST/Read/GET) Load eisting messages, create new messages whenever the user wants to connect someone
 
 
