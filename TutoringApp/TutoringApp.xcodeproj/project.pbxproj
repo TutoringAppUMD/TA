@@ -602,6 +602,7 @@
 				DEVELOPMENT_TEAM = FPV58YQ7YP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TutoringApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TA;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -632,6 +633,7 @@
 				DEVELOPMENT_TEAM = FPV58YQ7YP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TutoringApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TA;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
