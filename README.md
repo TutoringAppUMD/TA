@@ -130,5 +130,13 @@ Optional:
    - Message Screen
       - (Read/GET) Load existing messages
       - (Creat/POST) Create new messages whenever the user wants to connect to someone
+    
+
+### TA Part 1:
+#### Includes App Icon, Launch Screen, Sign in, and Posting Questions
+
+  Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/sik4swrWCk.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
