@@ -35,9 +35,9 @@ A tutoring app that connects students and teaching assistants according to subje
 * [ ] User can log out
 * [ ] User specificies subjects needed if he/she is a student or skills if he/she is a TA. 
 * [ ] User can select to skip or see next match, or user can send a quick chat.
-* [x] User can view main feed (matches only): photo posts (problems) and captions (specific questions) this normally by a student user and comments (solutions) by a TA.
+* [ ] User can view main feed (matches only): photo posts (problems) and captions (specific questions) this normally by a student user and comments (solutions) by a TA.
 * [x] User can post questions/photo problems
-* [x] User can comment under posts with solutions
+* [ ] User can comment under posts with solutions
 * [ ] User can send direct message a match
 
 **Optional Nice-to-have Stories**
